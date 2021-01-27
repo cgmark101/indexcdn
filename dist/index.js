@@ -1,6 +1,6 @@
 var map = L.map('map'),
 
-    realtime = L.realtime('https://wac5gf.deta.dev/deta/', {
+    realtime = L.realtime('https://wac5gf.deta.dev/deta', {
         interval: 3 * 10000
     }).addTo(map);
 
